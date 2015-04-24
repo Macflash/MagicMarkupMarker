@@ -11,37 +11,29 @@
     </div>
 
     <div id="addDiv" style="display:none">
-      <pre> Personal Info
-      First:	<input id="first"/><br>
-      Last:	<input id="last"/><br>
-      Address:	<input id="address"/><br>
-      City: 	<input id="city"/><br>
-      State:	<input id="state"/><br>
-      Country:	<input id="country"/><br>
-      Phone:	<input id="phone"/><br>
-      Email:	<input id="email"/><br>
-      <input id="save-pinfo" value="Save" type="button"/>
+      <pre> Add a Page Type
+      Name:	<input id="first"/><br>
+      Search Paths: <input id="addSearchPath" type="button" value="+"/><br>
+      <div id="searchPaths"></div>
+      <input id="savePageType" value="Save" type="button"/>
       </pre>
     </div>
 
     <div id="loadDiv" style="display:none">
-      <pre> Sign-In Info
-      Username:	<input id="username"/><br>
-      Password:	<input type="password" id="password"/><br>
-      Action:	<input id="action"/><br>
-      <input id="save-userp" value="Save" type="button"/>
+      <pre> Load a Page Type
+      <div id="loadPageTypes"></div>
+      <input id="run-once" value="Run" type="button"/>
       </pre>
     </div>
 
     <div id="batchDiv" style="display:none">
-      <pre> Sign-In Info
-      Username:	<input id="username"/><br>
-      Password:	<input type="password" id="password"/><br>
-      Action:	<input id="action"/><br>
-      <input id="save-userp" value="Save" type="button"/>
+      <pre> Run a Batch
+      <div id="batchPageTypes"></div>
+      Batchfile:	<input id="batchfile" value="batch.txt"/><br>
+      <input id="run-batch" value="Run" type="button"/>
       </pre>
     </div>
 
-    <div id="cancelDiv"><input type="button" id="cancel" value="Cancel"/></div>
+    <div id="cancelDiv" style="display:none"><input type="button" id="cancel" value="Cancel"/></div>
 
 </body>
